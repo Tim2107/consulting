@@ -64,3 +64,14 @@ Google first-pass research closes the third leg of the Bedrock/Azure/Vertex rout
 - Gemini Developer API / Google AI Studio free tier should not be used with Client Confidential Data.
 
 Evidence references: CLAIM-031 through CLAIM-038.
+
+## xAI / Grok / SpaceXAI Routing Note
+
+xAI/Grok first-pass research indicates that xAI should be evaluated both as a model/product provider and as a possible AI compute-provider layer:
+
+- xAI API with enterprise terms, DPA, ZDR, and regional endpoint/data-at-rest controls is a candidate restricted route for sensitive workflows.
+- Default xAI API routing, default 30-day temporary storage, and consumer/personal Grok are not sufficient for Client Confidential Data approval.
+- Grok Business/Enterprise can be a candidate internal-workflow route, but connectors, enterprise search, permissions, audit logs, employee transparency, and data-region/transfer terms must be reviewed.
+- Colossus and xAI/SpaceXAI compute partnerships matter for Provider Stack analysis but do not by themselves establish workload-specific routing for a customer request.
+
+Evidence references: CLAIM-039 through CLAIM-047.
