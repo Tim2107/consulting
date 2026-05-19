@@ -53,3 +53,14 @@ OpenAI/Microsoft first-pass research indicates that the same provider-stack dist
 - Microsoft 365 Copilot is a separate Microsoft 365-boundary workflow and must be governed through tenant permissions, Purview, connectors, agents, web search, and model-option controls.
 
 Evidence references: CLAIM-021 through CLAIM-030.
+
+## Google / Vertex / Gemini Routing Note
+
+Google first-pass research closes the third leg of the Bedrock/Azure/Vertex routing question:
+
+- Vertex AI with supported regional or EU multi-region endpoints is the candidate Google-operated route for sensitive workflows.
+- Vertex AI global endpoints should not be approved for Client Confidential Data where ML-processing location matters.
+- Gemini Enterprise and Gemini for Google Workspace need feature-level governance because connectors, grounding, agents, data regions, CSE, and DLP controls materially change the data-flow posture.
+- Gemini Developer API / Google AI Studio free tier should not be used with Client Confidential Data.
+
+Evidence references: CLAIM-031 through CLAIM-038.

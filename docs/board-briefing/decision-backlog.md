@@ -6,7 +6,7 @@ This backlog tracks unresolved AI governance decisions until they are approved, 
 | --- | --- | --- | --- | --- | --- | --- |
 | DEC-001 | Which AI tools are approved for Phase 1? | TBD | Open | TBD | TBD |  |
 | DEC-002 | May Client Confidential Data ever go to approved third-party providers? | TBD | Open | TBD | TBD |  |
-| DEC-003 | Are Bedrock, Azure, or Vertex routing constraints sufficient for sensitive workflows? | TBD | Open | TBD | CLAIM-016, CLAIM-017, CLAIM-018, CLAIM-025, CLAIM-026 | Anthropic/AWS first pass indicates Bedrock is the candidate AWS-operated route; OpenAI/Microsoft first pass indicates Azure OpenAI / Foundry is the candidate Microsoft-operated route. Vertex still needs a comparable profile. |
+| DEC-003 | Are Bedrock, Azure, or Vertex routing constraints sufficient for sensitive workflows? | TBD | Open | TBD | CLAIM-016, CLAIM-017, CLAIM-018, CLAIM-025, CLAIM-026, CLAIM-032, CLAIM-033, CLAIM-034 | First-pass profiles now identify Bedrock as the AWS-operated route, Azure OpenAI / Foundry as the Microsoft-operated route, and Vertex AI regional/EU endpoints as the Google-operated route. Global endpoints and feature-level exceptions remain restricted. |
 | DEC-004 | When should the company invest in managed private deployment or company-operated self-hosting? | TBD | Open | TBD | TBD |  |
 | DEC-005 | Which Technically Gated Actions are acceptable in Delivery Pipeline Systems? | TBD | Open | TBD | TBD |  |
 | DEC-006 | Is training or fine-tuning on client material ever allowed? | TBD | Open | TBD | CLAIM-013 |  |
@@ -17,3 +17,5 @@ This backlog tracks unresolved AI governance decisions until they are approved, 
 | DEC-011 | Which financial-sector client engagements require DORA-style controls for AI tools? | TBD | Open | TBD | CLAIM-007 |  |
 | DEC-012 | Does the company qualify directly under NIS2, or only receive NIS2-style duties through clients? | TBD | Open | TBD | CLAIM-008 |  |
 | DEC-013 | Which Microsoft 365 Copilot agents, connectors, web search options, and non-OpenAI models are allowed? | TBD | Open | TBD | CLAIM-027, CLAIM-028 | Copilot inherits Microsoft 365 protections, but optional agents/connectors/web search and Anthropic model options can change data flow and EU Data Boundary posture. |
+| DEC-014 | Which Gemini Enterprise connectors, agents, grounding features, and Workspace Gemini controls are allowed? | TBD | Open | TBD | CLAIM-036, CLAIM-037 | Google routes require feature-level governance because Gemini Enterprise and Workspace Gemini have connector, grounding, CSE, DLP, and regional-processing constraints. |
+| DEC-015 | Should xAI/Grok be evaluated as a model provider, a compute provider, or both? | TBD | Open | TBD | CLAIM-019 | xAI/Grok should be included after Google, especially because Colossus-style compute relationships affect Provider Stack and Processing Location analysis. |
