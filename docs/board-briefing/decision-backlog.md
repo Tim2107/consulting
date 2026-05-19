@@ -4,13 +4,13 @@ This backlog tracks unresolved AI governance decisions until they are approved, 
 
 | Decision ID | Decision | Owner | Status | Due Date | Evidence References | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| DEC-001 | Which AI tools are approved for Phase 1? | TBD | Open | TBD | TBD |  |
-| DEC-002 | May Client Confidential Data ever go to approved third-party providers? | TBD | Open | TBD | TBD |  |
+| DEC-001 | Which AI tools are approved for Phase 1? | TBD | Open | TBD | CLAIM-014 through CLAIM-054 | First operational draft registry now exists; board must approve owners, review dates, and initial Allowed/Restricted/Prohibited entries. |
+| DEC-002 | May Client Confidential Data ever go to approved third-party providers? | TBD | Open | TBD | CLAIM-002, CLAIM-003, CLAIM-016, CLAIM-022, CLAIM-025, CLAIM-026, CLAIM-032, CLAIM-033, CLAIM-040, CLAIM-042, CLAIM-050 | First routing-policy draft keeps Client Confidential Data restricted; third-party disclosure requires provider route approval, processing-location review, DPA/subprocessor/transfer review, and client-contract compatibility. |
 | DEC-003 | Are Bedrock, Azure, or Vertex routing constraints sufficient for sensitive workflows? | TBD | Open | TBD | CLAIM-016, CLAIM-017, CLAIM-018, CLAIM-025, CLAIM-026, CLAIM-032, CLAIM-033, CLAIM-034 | First-pass profiles now identify Bedrock as the AWS-operated route, Azure OpenAI / Foundry as the Microsoft-operated route, and Vertex AI regional/EU endpoints as the Google-operated route. Global endpoints and feature-level exceptions remain restricted. |
 | DEC-004 | When should the company invest in managed private deployment or company-operated self-hosting? | TBD | Open | TBD | CLAIM-048, CLAIM-049, CLAIM-050, CLAIM-051, CLAIM-052, CLAIM-053, CLAIM-054 | First-pass profile recommends a 70-user RAG-first self-hosted pilot only where data control or client constraints justify the operational burden; avoid recurring training runs. |
 | DEC-005 | Which Technically Gated Actions are acceptable in Delivery Pipeline Systems? | TBD | Open | TBD | TBD |  |
 | DEC-006 | Is training or fine-tuning on client material ever allowed? | TBD | Open | TBD | CLAIM-013, CLAIM-054 | Default remains no; self-hosting does not make training or fine-tuning on company/client material automatically acceptable. |
-| DEC-007 | Who owns the Approved AI Tool Registry? | TBD | Open | TBD | TBD |  |
+| DEC-007 | Who owns the Approved AI Tool Registry? | TBD | Open | TBD | CLAIM-002, CLAIM-003 | Registry draft uses TBD owners and review dates; ownership must be assigned before operational rollout. |
 | DEC-008 | Is employee HR, labor-law, or works-council review required before rollout? | TBD | Open | TBD | TBD |  |
 | DEC-009 | Who owns DPIA trigger decisions for AI workflows? | TBD | Open | TBD | CLAIM-004 |  |
 | DEC-010 | What minimum evidence is required for a provider Processing Location claim? | TBD | Open | TBD | CLAIM-002, CLAIM-003 |  |

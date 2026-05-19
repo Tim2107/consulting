@@ -19,16 +19,24 @@ This matrix maps AI use case archetypes and deployment options to a governance s
 - Company-Operated Self-Hosted Option
 - Training or fine-tuning on company or client material
 
-## Matrix Template
+## First Draft Matrix
 
 | AI Use Case Archetype | No Client Confidential Data | Client Confidential Data inside Company-Controlled Environment | Approved Third-Party Provider | Provider Routing Constraint | Managed Private Deployment | Company-Operated Self-Hosted Option | Training or Fine-Tuning |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| General productivity | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision |
-| Software delivery | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision |
-| Delivery Pipeline Systems | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision |
-| Knowledge retrieval | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision |
-| Client project analysis | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision |
-| Customer or service operations | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision | Needs Decision |
+| General productivity | Allowed | Restricted | Restricted | Restricted | Restricted | Restricted | Prohibited |
+| Software delivery | Restricted | Restricted | Restricted | Restricted | Restricted | Restricted | Prohibited |
+| Delivery Pipeline Systems | Restricted | Restricted | Restricted | Restricted | Restricted | Restricted | Prohibited |
+| Knowledge retrieval | Allowed | Restricted | Restricted | Restricted | Restricted | Restricted | Prohibited |
+| Client project analysis | Restricted | Restricted | Needs Decision | Restricted | Restricted | Restricted | Prohibited |
+| Customer or service operations | Restricted | Restricted | Needs Decision | Needs Decision | Restricted | Restricted | Prohibited |
+
+## Matrix Notes
+
+- Allowed general productivity and knowledge retrieval apply only to public or non-confidential internal data in approved tools.
+- Restricted means the AI Use Case Intake, registry conditions, retention/logging controls, and Employee AI Transparency Notice apply where relevant.
+- Client Confidential Data in any third-party route remains Needs Decision unless the route is specifically approved in the registry and the Client Contract Compatibility Check is complete.
+- Delivery Pipeline Systems remain Restricted-by-Default even when no personal data is present.
+- Training or fine-tuning on company/client material remains Prohibited by default and requires a board/legal/client exception.
 
 ## Technical Gate Note
 
