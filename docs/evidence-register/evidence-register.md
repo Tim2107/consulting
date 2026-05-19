@@ -1,0 +1,48 @@
+# Evidence Register
+
+Date accessed: 2026-05-19
+
+This register starts the shared evidence base for the Board Briefing, Research Dossier, and Operational Policy Draft. It is not a legal opinion.
+
+## Source Entries
+
+| ID | Source | Owner | Jurisdiction | Source Type | Link | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| SRC-001 | General Data Protection Regulation, Regulation (EU) 2016/679 | EU | EU/EEA | Primary law | https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng | Baseline data-protection law for personal data processing. |
+| SRC-002 | EDPB news: Opinion on processor and subprocessor obligations | EDPB | EU/EEA | Regulator guidance | https://www.edpb.europa.eu/news/news/2024/edpb-adopts-opinion-processors-guidelines-legitimate-interest-statement-draft_en | Summarizes controller duties when relying on processors and subprocessors. |
+| SRC-003 | European Commission: Standard Contractual Clauses | European Commission | EU/EEA | Official guidance | https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en | SCCs for transfers from the EU/EEA to third countries. |
+| SRC-004 | EDPB Recommendations 01/2020 on supplementary measures for transfers | EDPB | EU/EEA | Regulator guidance | https://www.edpb.europa.eu/our-work-tools/our-documents/recommendations/recommendations-012020-measures-supplement-transfer_en | Transfer impact and supplementary-measure guidance. |
+| SRC-005 | EDPB Opinion 28/2024 on personal data in AI models | EDPB | EU/EEA | Regulator opinion | https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en | AI model anonymity, legal basis, and consequences of unlawful training data. |
+| SRC-006 | EU AI Act, Regulation (EU) 2024/1689 | EU | EU | Primary law | https://eur-lex.europa.eu/eli/reg/2024/1689/oj?locale=en | Risk-based EU AI regulatory framework. |
+| SRC-007 | European Commission AI Act overview | European Commission | EU | Official guidance | https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai | Current implementation overview and timeline updates. |
+| SRC-008 | AI Act Service Desk timeline | European Commission | EU | Official guidance | https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act | Progressive application dates for AI Act obligations. |
+| SRC-009 | DORA, Regulation (EU) 2022/2554 | EU | EU | Primary law | https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1713857248180&uri=CELEX%3A32022R2554 | Digital operational resilience law for financial entities. |
+| SRC-010 | European Commission cyber resilience / DORA overview | European Commission | EU | Official guidance | https://finance.ec.europa.eu/digital-finance/cyber-resilience_en | Explains DORA purpose and third-party ICT oversight. |
+| SRC-011 | FMA Austria: DORA oversight of critical ICT third-party providers | Austrian FMA | Austria/EU | Financial regulator guidance | https://www.fma.gv.at/en/cross-sectoral-topics/dora/dora-oversight-framework-of-critical-ict-third-party-service-providers/ | Austrian financial regulator view of DORA critical ICT provider oversight. |
+| SRC-012 | NIS2 Directive overview | European Commission | EU | Official guidance | https://digital-strategy.ec.europa.eu/en/policies/nis2-directive | Cybersecurity framework affecting covered essential and important entities. |
+| SRC-013 | NIS2 Directive, Directive (EU) 2022/2555 | EU | EU | Primary law | https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1708526&uri=CELEX%3A32022L2555 | Primary NIS2 legal text. |
+| SRC-014 | Austrian DSB: AI and data protection | Austrian Data Protection Authority | Austria | Regulator guidance | https://dsb.gv.at/kuenstlichebrintelligenz/kuenstliche-intelligenz-datenschutz | Austrian DSB guidance on AI, GDPR, and the AI Act relationship. |
+| SRC-015 | German DSK: AI and data protection orientation aid | German data-protection authorities | Germany | Regulator guidance | https://www.datenschutzkonferenz-online.de/media/oh/20240506_DSK_Orientierungshilfe_KI_und_Datenschutz.pdf | German data-protection authority guide for AI selection, implementation, and use. |
+| SRC-016 | German DSK orientation aids index | German data-protection authorities | Germany | Regulator guidance | https://www.datenschutzkonferenz-online.de/orientierungshilfen.html | Index confirms current AI-related DSK guidance, including RAG and TOM guidance. |
+| SRC-017 | BfDI FAQ on employee data protection | BfDI | Germany | Regulator guidance | https://www.bfdi.bund.de/DE/Buerger/Inhalte/Arbeit-Besch%C3%A4ftigung/Besch%C3%A4ftigtendatenschutz/FAQ_Besch%C3%A4ftigtendatenschutz.html | Employee data protection and German employment data context. |
+| SRC-018 | German Works Constitution Act, BetrVG | Germany | Germany | Primary law | https://www.gesetze-im-internet.de/betrvg/BJNR000130972.html | Works-council rights, including AI expert support and technical monitoring co-determination. |
+| SRC-019 | Austrian Labour Constitution Act, ArbVG section 96 | Austria | Austria | Primary law | https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008329&Paragraf=96 | Works-council approval for control systems affecting human dignity. |
+| SRC-020 | Austrian Chamber of Labour: workplace monitoring | Arbeiterkammer | Austria | Institutional guidance | https://www.arbeiterkammer.at/ueberwachung-am-arbeitsplatz | Practical Austrian guidance on workplace control systems and Betriebsvereinbarung requirements. |
+
+## Claim Entries
+
+| ID | Classification | Claim | Sources | Implication |
+| --- | --- | --- | --- | --- |
+| CLAIM-001 | Current Fact | AI use that processes personal data remains subject to GDPR even when the EU AI Act also applies. | SRC-001, SRC-014 | The AI policy must not treat AI Act compliance as a replacement for GDPR compliance. |
+| CLAIM-002 | Current Fact | Third-party AI provider use requires role mapping, processor/subprocessor review, sufficient guarantees, and appropriate controller-processor terms where the provider acts as processor. | SRC-001, SRC-002 | Provider profiles must identify the full Provider Stack and subprocessors. |
+| CLAIM-003 | Current Fact | Non-EEA processing, access, or onward transfer of personal data requires a valid transfer mechanism and assessment of whether supplementary measures are needed. | SRC-001, SRC-003, SRC-004 | Processing Location and Provider Routing Constraint are mandatory fields. |
+| CLAIM-004 | Current Fact | AI workflows likely to create high risk for individuals require DPIA analysis under GDPR; employee monitoring, profiling, automated decision support, and sensitive-data use are likely triggers for closer review. | SRC-001, SRC-014, SRC-015, SRC-017 | The AI Use Case Intake should flag DPIA/legal review triggers. |
+| CLAIM-005 | Current Fact | General-purpose AI model obligations under the AI Act have been applicable since 2025, while other AI Act duties apply progressively. | SRC-006, SRC-007, SRC-008 | Provider reviews should include AI Act posture for model providers, especially GPAI providers. |
+| CLAIM-006 | Near-Term Development | AI Act transparency obligations are scheduled to start applying in August 2026, within the six-month near-term horizon. | SRC-007, SRC-008 | Board briefing should treat transparency obligations as immediate planning work. |
+| CLAIM-007 | Current Fact | DORA creates ICT third-party risk and oversight expectations for financial entities and critical ICT third-party providers; financial-sector clients may pass these requirements into consulting/vendor obligations. | SRC-009, SRC-010, SRC-011 | AI Provider Stack reviews should include DORA-style third-party and concentration-risk questions for financial-sector work. |
+| CLAIM-008 | Current Fact | NIS2 expands cybersecurity obligations for covered entities and includes digital infrastructure/service categories relevant to managed and cloud services. | SRC-012, SRC-013 | Delivery Pipeline Systems and managed AI infrastructure should be assessed as cybersecurity supply-chain risk. |
+| CLAIM-009 | Current Fact | Germany has specific employment-data and works-council concerns relevant to employee-facing AI tools, especially tools capable of monitoring behavior or performance. | SRC-017, SRC-018 | Employee AI Transparency Notice and HR/works-council review should be built into rollout gates. |
+| CLAIM-010 | Current Fact | Austria requires special attention to works-council approval or employee consent for technical control systems affecting human dignity. | SRC-019, SRC-020 | Austrian rollout of employee-facing AI logging, telemetry, and monitoring must be reviewed before deployment. |
+| CLAIM-011 | Current Fact | German DSK guidance treats AI selection, implementation, and use as a data-protection design problem, not merely a procurement problem. | SRC-015, SRC-016 | Provider approval should include data minimization, purpose definition, legal basis, system openness, and training-use restrictions. |
+| CLAIM-012 | Speculation | Provider legal and technical controls may become more EU-region specific over time, but any provider-specific roadmap must be verified before policy reliance. | SRC-007, SRC-008 | Do not approve sensitive workflows based only on roadmap or marketing claims. |
+| CLAIM-013 | Current Fact | AI model development, training, fine-tuning, and deployment can raise separate GDPR questions about personal data, anonymity, legal basis, and consequences of unlawful processing. | SRC-005 | Training or fine-tuning on company or client material must remain a separate high-risk decision path. |
