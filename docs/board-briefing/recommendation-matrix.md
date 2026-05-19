@@ -42,6 +42,8 @@ This matrix maps AI use case archetypes and deployment options to a governance s
 
 Automated deployment, release, and infrastructure actions should not be treated as categorically prohibited. They may be allowed when approved as Technically Gated Actions with enforceable controls.
 
+Evidence references: CLAIM-055 through CLAIM-061.
+
 ## Provider Routing Note
 
 Anthropic/AWS first-pass research indicates that provider routing constraints must identify both the commercial access path and the operating party:

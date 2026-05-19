@@ -9,6 +9,7 @@ This output should translate approved research conclusions into operational requ
 - [Approved AI Tool Registry](./approved-ai-tool-registry.md)
 - [Approved AI Tool Registry Template](./approved-ai-tool-registry-template.md)
 - [Data-Class Routing Policy](./data-class-routing-policy.md)
+- [Technically Gated Actions For Delivery Pipeline Systems](./technically-gated-actions.md)
 - [AI Use Case Intake Template](./ai-use-case-intake-template.md)
 - [Client Contract Compatibility Instructions](./client-contract-compatibility-instructions.md)
 - [Employee AI Transparency Notice Template](./employee-ai-transparency-notice-template.md)
