@@ -2,6 +2,11 @@
 
 This index lists the first-pass Provider Comparison Scope. Each provider profile should use [provider-profile-template.md](./provider-profile-template.md) and reference the evidence register.
 
+## Provider Profiles
+
+- [Anthropic / AWS](./provider-profiles/anthropic-aws.md)
+- [OpenAI / Microsoft next pass](./provider-profiles/openai-microsoft-next-pass.md)
+
 ## First-Pass Providers And Options
 
 - OpenAI: ChatGPT Enterprise or Team, OpenAI API, Azure OpenAI or Microsoft-hosted variants where relevant.

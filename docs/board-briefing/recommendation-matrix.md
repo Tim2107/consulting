@@ -33,3 +33,13 @@ This matrix maps AI use case archetypes and deployment options to a governance s
 ## Technical Gate Note
 
 Automated deployment, release, and infrastructure actions should not be treated as categorically prohibited. They may be allowed when approved as Technically Gated Actions with enforceable controls.
+
+## Provider Routing Note
+
+Anthropic/AWS first-pass research indicates that provider routing constraints must identify both the commercial access path and the operating party:
+
+- Claude in Amazon Bedrock is the candidate AWS-operated route for sensitive workflows that require AWS to operate inference.
+- Claude Platform on AWS is not an AWS-only processing route, even though it uses AWS IAM, billing, and CloudTrail integration.
+- Global Bedrock inference profiles should remain Needs Decision or Restricted for Client Confidential Data unless the board accepts worldwide AWS commercial-region processing.
+
+Evidence references: CLAIM-016, CLAIM-017, CLAIM-018.

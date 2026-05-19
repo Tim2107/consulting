@@ -6,7 +6,7 @@ This backlog tracks unresolved AI governance decisions until they are approved, 
 | --- | --- | --- | --- | --- | --- | --- |
 | DEC-001 | Which AI tools are approved for Phase 1? | TBD | Open | TBD | TBD |  |
 | DEC-002 | May Client Confidential Data ever go to approved third-party providers? | TBD | Open | TBD | TBD |  |
-| DEC-003 | Are Bedrock, Azure, or Vertex routing constraints sufficient for sensitive workflows? | TBD | Open | TBD | TBD |  |
+| DEC-003 | Are Bedrock, Azure, or Vertex routing constraints sufficient for sensitive workflows? | TBD | Open | TBD | CLAIM-016, CLAIM-017, CLAIM-018 | Anthropic/AWS first pass indicates Bedrock is the candidate AWS-operated route; Claude Platform on AWS is not AWS-only processing. Azure and Vertex still need comparable profiles. |
 | DEC-004 | When should the company invest in managed private deployment or company-operated self-hosting? | TBD | Open | TBD | TBD |  |
 | DEC-005 | Which Technically Gated Actions are acceptable in Delivery Pipeline Systems? | TBD | Open | TBD | TBD |  |
 | DEC-006 | Is training or fine-tuning on client material ever allowed? | TBD | Open | TBD | CLAIM-013 |  |
