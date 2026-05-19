@@ -8,6 +8,7 @@ This index lists the first-pass Provider Comparison Scope. Each provider profile
 - [OpenAI / Microsoft](./provider-profiles/openai-microsoft.md)
 - [Google / Vertex AI / Gemini](./provider-profiles/google-vertex-gemini.md)
 - [xAI / Grok / SpaceXAI](./provider-profiles/xai-grok.md)
+- [Self-hosted / open-weight / managed private deployment](./provider-profiles/self-hosted-open-weight.md)
 - [OpenAI / Microsoft next pass](./provider-profiles/openai-microsoft-next-pass.md)
 
 ## First-Pass Providers And Options

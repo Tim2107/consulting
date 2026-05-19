@@ -75,3 +75,14 @@ xAI/Grok first-pass research indicates that xAI should be evaluated both as a mo
 - Colossus and xAI/SpaceXAI compute partnerships matter for Provider Stack analysis but do not by themselves establish workload-specific routing for a customer request.
 
 Evidence references: CLAIM-039 through CLAIM-047.
+
+## Self-Hosted / Open-Weight Routing Note
+
+Self-hosted first-pass research indicates that a 70-user company assistant should be scoped as a RAG-first internal platform:
+
+- "Learning the company" should mean permission-aware RAG, curated internal knowledge, feedback, evaluations, and controlled memory, not recurring base-model training.
+- Company-operated or managed-private deployments can be restricted candidates for Client Confidential Data when all inference, embeddings, logs, indexes, backups, monitoring, and support access stay inside the approved boundary.
+- Open-weight models still require model-by-model license, acceptable-use, attribution, redistribution, jurisdiction, and client-acceptance review.
+- Cost should be evaluated by use-case category. Internal knowledge retrieval is the strongest early fit; client project analysis can justify higher cost; production service operations and training/fine-tuning are expensive exception paths.
+
+Evidence references: CLAIM-048 through CLAIM-054.
