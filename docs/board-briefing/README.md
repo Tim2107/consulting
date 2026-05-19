@@ -6,6 +6,7 @@ This output should summarize risks, options, recommended decisions, and open gov
 
 ## Current Drafts
 
+- [Decision Packet: Initial AI Tool Registry And Client Data Routing](./decision-packet-dec-001-dec-002.md)
 - [Recommendation Matrix](./recommendation-matrix.md)
 - [Provider Comparison Table](./provider-comparison-table.md)
 - [Decision Backlog](./decision-backlog.md)
