@@ -43,3 +43,13 @@ Anthropic/AWS first-pass research indicates that provider routing constraints mu
 - Global Bedrock inference profiles should remain Needs Decision or Restricted for Client Confidential Data unless the board accepts worldwide AWS commercial-region processing.
 
 Evidence references: CLAIM-016, CLAIM-017, CLAIM-018.
+
+## OpenAI / Microsoft Routing Note
+
+OpenAI/Microsoft first-pass research indicates that the same provider-stack distinction applies:
+
+- Direct OpenAI API and ChatGPT Enterprise are OpenAI-operated and should not be assumed to be Azure-only.
+- Azure OpenAI / Microsoft Foundry Models sold by Azure are the candidate Microsoft-operated route for OpenAI models.
+- Microsoft 365 Copilot is a separate Microsoft 365-boundary workflow and must be governed through tenant permissions, Purview, connectors, agents, web search, and model-option controls.
+
+Evidence references: CLAIM-021 through CLAIM-030.

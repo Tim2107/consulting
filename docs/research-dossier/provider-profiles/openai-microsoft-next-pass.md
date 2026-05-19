@@ -2,7 +2,7 @@
 
 Date created: 2026-05-19
 
-Status: research queue. Use this after the Anthropic/AWS pass.
+Status: first-pass profile completed in [openai-microsoft.md](./openai-microsoft.md). Keep this file as the follow-up checklist for deeper procurement and policy questions.
 
 ## Purpose
 
@@ -39,9 +39,9 @@ Profiles to produce:
 - Official Microsoft 365 Copilot data, privacy, security, and EU Data Boundary docs.
 - Official OpenAI/Microsoft partnership and compute-capacity announcements only as infrastructure context, not as customer-data routing proof.
 
-## Expected Outputs
+## Completed Output
 
 - `docs/research-dossier/provider-profiles/openai-microsoft.md`
 - Evidence Register source entries and claim entries.
-- Decision Backlog update if Azure/Microsoft routing constraints remain unresolved.
-- Recommendation Matrix row/column notes for direct OpenAI, Azure OpenAI, and Microsoft 365 Copilot.
+- Decision Backlog update for Azure/Microsoft routing constraints and Microsoft 365 Copilot agents/connectors.
+- Recommendation Matrix notes for direct OpenAI, Azure OpenAI, and Microsoft 365 Copilot.

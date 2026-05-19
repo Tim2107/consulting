@@ -5,6 +5,7 @@ This index lists the first-pass Provider Comparison Scope. Each provider profile
 ## Provider Profiles
 
 - [Anthropic / AWS](./provider-profiles/anthropic-aws.md)
+- [OpenAI / Microsoft](./provider-profiles/openai-microsoft.md)
 - [OpenAI / Microsoft next pass](./provider-profiles/openai-microsoft-next-pass.md)
 
 ## First-Pass Providers And Options
