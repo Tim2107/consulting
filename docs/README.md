@@ -2,6 +2,11 @@
 
 This folder separates board-level decisions, source-backed research, operational policy, and shared evidence tracking.
 
+## Start Here
+
+- [Situational Awareness Summary](./situational-awareness-summary.md) is the repo-safe handoff for a CTO, reviewer, or fresh AI session.
+- [CONTEXT.md](../CONTEXT.md) defines the shared terminology used across the dossier.
+
 ## Folders
 
 - [board-briefing](./board-briefing/) contains decision-oriented material for the AI Governance and Steering Board.
