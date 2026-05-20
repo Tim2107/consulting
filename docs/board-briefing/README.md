@@ -6,6 +6,7 @@ This output should summarize risks, options, recommended decisions, and open gov
 
 ## Current Drafts
 
+- [Board Activation Pack](./board-activation-pack.md)
 - [Decision Packet: Initial AI Tool Registry And Client Data Routing](./decision-packet-dec-001-dec-002.md)
 - [Decision Packet: Delivery Pipeline Systems And Technically Gated Actions](./decision-packet-dec-005-delivery-pipeline-actions.md)
 - [70-User Self-Hosted RAG Pilot Proposal](./self-hosted-rag-pilot-proposal.md)
