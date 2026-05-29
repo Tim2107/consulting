@@ -12,6 +12,7 @@ This output should summarize risks, options, recommended decisions, and open gov
 - [70-User Self-Hosted RAG Pilot Proposal](./self-hosted-rag-pilot-proposal.md)
 - [Recommendation Matrix](./recommendation-matrix.md)
 - [Provider Comparison Table](./provider-comparison-table.md)
+- [Provider Routes And GDPR Posture](./provider-routes-gdpr-table.md)
 - [Decision Backlog](./decision-backlog.md)
 - [Adoption Phases](./adoption-phases.md)
 - [Red Lines And Gated Exceptions](./red-lines-and-gated-exceptions.md)
